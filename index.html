@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Trabajo - Herson Viveros</title>
+    <!-- cambia el icono de la pagina -->
+<link rel="shortcut icon" href="imagenes/herson.png">
+
+<!-- boostrap -->  <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+    
+
+     <!-- NAVIGATION -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img src="imagenes/herson.png" style="width: 20%;">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item" id="form1">
+                
+          
+                
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Acerca de
+</button>
+
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Datos de autor</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <h6><strong>Nombre:</strong> Herson Viveros</h6>
+       <h6><strong>Id:</strong> 396480</h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+ 
+
+  
+      <!-- HEADER -->
+      <header class="main-header">
+        <div class="background-overlay text-white py-5">
+          <div class="container">
+            <div class="row d-flex h-100">
+              <div class="col-sm-6 text-center justify-content-center align-self-center">
+                <h1>
+                  Bienvenidos.
+                </h1>
+                <h3>Hoy vamos a aprender todo sobre los</h3>
+                <h1>Contenedores de Software (Docker)</h1>
+                <p>Los contenedores de software son un paquete de elementos que permiten ejecutar una aplicación determinada en cualquier sistema operativo.</p>
+                
+                <a href="https://www.youtube.com/watch?v=kkfZs0vJFyU" class="btn btn-outline-secondary btn-lg text-white">
+                  Saber más
+                </a>
+              </div>
+              <div class="col-sm-6">
+                <img src="imagenes/product.jpg" class="img-fluid d-none d-sm-block">
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <!-- NEWSLETTER  -->
+      <section id="newsletter" class="bg-dark text-white py-5">
+        <div class="container">
+          <div class="row">
+            <h6>
+              Uno de los términos que vienen sonando dentro del mundo de la tecnología y el desarrollo de aplicaciones en los últimos años es el de los contenedores de software. Se utilizan para garantizar que una determinada aplicación se ejecute correctamente cuando cambie su entorno, sin dar fallos de ningún tipo. En cierto modo se
+               asemeja a la tecnología de virtualización, aunque se puede decir que funcionan en un plano menor.
+              Los contenedores ofrecen un mecanismo de empaquetado lógico en el que 
+              las aplicaciones se pueden abstraer del entorno en el que se ejecutan. Esta separación permite que las aplicaciones basadas en contenedores se implementen de manera fácil y uniforme, independientemente de si el entorno de destino es un centro de datos privado, la nube pública o incluso la laptop personal de un desarrollador.</h6>
+          </div>
+        </div>
+      </section>
+  
+      <!-- FEATURES -->
+  
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card text-center border-primary">
+                <div class="card-body">
+                  <h3>¿Como funciona?</h3>
+                  <p>
+                    Si desarrollas un software y quieres pasarlo de un servidor instalado en un centro de datos a una máquina virtual que funciona en una nube pública, tal vez el código no termine de funcionar del todo bien en su nuevo entorno.
+                    Si ese software desarrollado lo metes en un contenedor lo puedes llevar al sistema que más te convenga. 
+                    El contenedor actúa como una funda para el software que lo habilita para funcionar dentro del nuevo entorno.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card text-white bg-primary">
+                <div class="card-body">
+                  <h3>Entorno coherente</h3>
+                  <p>
+                    Los contenedores ofrecen a los desarrolladores la capacidad de crear entornos predecibles que están aislados de otras 
+                    aplicaciones. Los contenedores también incluyen dependencias de software que necesita la aplicación, como versiones específicas de entornos de ejecución de lenguajes de programación y otras bibliotecas de software. Desde la perspectiva del desarrollador, se garantiza que 
+                    todo esto sea uniforme, sin importar dónde se implemente la aplicación en última instancia
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3">
+              <div class="card text-center border-primary">
+                <div class="card-body">
+                  <h3>Como emplear un contenedor de software</h3>
+                  <p>
+                   Podemoa hablar de la herramienta DOCKER de windows como un producto que le permite configurar un contenedor en un sistema operativo como Windows 10.
+                   En nuestra máquina de Windows 10, primero tendremos que descargar Docker para Windows. Una vez descargado, instálelo adecuadamente. Cuando termine, le solicitara que cierre su sesión en Windows—cierre y vuelva a iniciar.
+                  </p>
+                  <a href="https://blog.ipswitch.com/es/como-crear-su-primer-contenedor-de-windows-con-docker" class="btn btn-outline-secondary btn-lg text-break">
+                   Leer más
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card text-white bg-primary">
+                <div class="card-body">
+                  <h3>Casos de uso (Docker Contenedor)</h3>
+                  <p>
+                  Grandes compañias como compañías cómo Spotify, ING Direct, Uber, eBay o PayPal son, 
+                  entre otras muchas empresas ejemplos de una correcta implementación de Docker en sus 
+                  modelos empresariales, ahorrando tiempo y equipamiento a la empresa, que se traduce 
+                  inmediatamente en una menor inversión y por ende mayor beneficio.</p>
+                  <a href="https://openwebinars.net/blog/3-casos-reales-de-uso-de-docker-en-grandes-empresas/" class="btn btn-outline-secondary btn-lg text-white">
+                    Leer más
+                   </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- ABOUT -->
+      <section class="m5 text-center bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="m-5">
+              <h3>El funcionamiento de Docker</h3>
+              <p>
+                Lo primero que tenemos que entender es que las imágenes son previas, creadas por un usuario
+                 y los contenedores o containers son aplicaciones asiladas que contienen una o más imágenes.
+                Estos contenedores contienen todo lo necesario para ejecutar una aplicación.</p>
+              
+                <img src="imagenes/contenedor.png" class="img-fluid justify-content-center">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+      <footer class="p45">
+        <div class="container p-3">
+          <div class="row text-center text-white">
+            <div class="col ml-auto">
+              <p>Copyright &copy; 2020</p>
+              <p>Herson Viveros de Optima Corporation</p>
+            </div>
+          </div>
+        </div>       
+      </footer>
+  
+
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
